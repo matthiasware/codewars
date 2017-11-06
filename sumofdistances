@@ -1,0 +1,8 @@
+# t max sum of distances
+# k number of towns
+# ls list of sitances
+# (k ls)
+def choose_best_sum(t, k, ls):
+    ls = sorted(ls)
+    # ls >= k !!!
+    # calculate all combinations of kCrls
